@@ -1,10 +1,9 @@
 import smtplib
 
 def sendmail(IP):
-    sender_email = "brysongracias@gmail.com"
-    sender_password = "pnuxbuhqcyzeguck"
-    receiver_email = "niranjanhebli@nitgoa.ac.in"
-    # receiver_email = "gladiatorgracias2016@gmail.com"
+    sender_email = "...@gmail.com"
+    sender_password = "password"
+    receiver_email = "...@nitgoa.ac.in"
     subject = "Road Blocked by Cattle!"
     message = "road blocked by cattle at the following location of the IP camera: "+IP
 
